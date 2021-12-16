@@ -1,3 +1,3 @@
 #r3cder
 
-un simple script en bash que sobreescribe cualquier tipo de archivos.
+un simple script en bash que sobrescribe cualquier tipo de archivos.
