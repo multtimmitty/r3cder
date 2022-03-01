@@ -13,12 +13,12 @@ RBOX="${blue}[${red}-${blue}]${end}"
 
 # FUNCTION TERMINANTE AND CANCEL
 CTRL_C(){
-  echo -e "${cyan}>>> ${red}Process Canceled ${cyan}<<<${end}"
+  echo -e "\n${cyan}>>> ${red}Process Canceled ${cyan}<<<${end}\n"
   tput cnorm
   exit 0
 }
 FINISHED(){
-  echo -e "\t${cyan}>>> ${red}finished Process ${cyan}<<<${end}"
+  echo -e "\n${cyan}>>> ${red}finished Process ${cyan}<<<${end}\n"
   tput cnorm
   exit 0
 }
